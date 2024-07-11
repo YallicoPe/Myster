@@ -10,8 +10,8 @@ import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.
 import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 //Aqui se agrega los numeros que seran owners
 global.owner = [
-["51926933818", '𝙊𝙬𝙣𝙚𝙧 👑', true], //𝙏𝙝𝙚-𝙈𝙞𝙠𝙪𝘽𝙤𝙩-𝙈𝘿𝙑5 👑
-["522291751513"]]
+["51968200754", '𝙊𝙬𝙣𝙚𝙧 👑', true], //𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️
+["573244614654"]]
 
 global.mods = []
 global.prems = []
@@ -22,7 +22,7 @@ global.obtenerQrWeb = 0; //Solo valores: 1 o 0
 global.keepAliveRender = 0; //Solo valores: 1 o 0
 // ❰❰ methodCode ❱❱
 // [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
-global.botNumberCode = "" //example: "+51926933818"
+global.botNumberCode = "" //example: "+51968200754"
 global.confirmCode = "" // No tocar esto : Do not touch this line
 // ❰❰ Multi Idioma Dinámico : Dynamic Multi Language (MID-GB) ❱❱
 // [ES] > Agregué uno de los idiomas disponibles para el Bot en "mid".
@@ -90,8 +90,8 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51926933818", 'AdrianOficial 💻', 1], 
-["522291751513", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
+["51968200754", 'AdrianOficial 💻', 1], 
+["573244614654", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -99,11 +99,11 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉`
-global.author = `𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉`
+global.packname = `𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️`
+global.author = `𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️`
 global.vs = "5.0.0"
 global.vsJB = "4.0 (Beta)"
-global.gt = "𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗼𝘁 🐉"
+global.gt = "𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -129,9 +129,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝑻𝒉𝒆-𝑴𝒊𝒌𝒖𝑩𝒐𝒕-𝑴𝑫𝑽5 𝑩𝒚 𝑨𝒅𝒓𝒊𝒂𝒏𝑶𝒇𝒊𝒄𝒊𝒂𝒍"
+global.wm = "𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️"
 global.igfg = "𝑇ℎ𝑒-𝑀𝑖𝑘𝑢𝐵𝑜𝑡-𝑀𝐷𝑉5"
-global.nomorown = "595994836199"
+global.nomorown = "51968200754"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
