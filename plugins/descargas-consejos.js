@@ -3,7 +3,8 @@ import fetch from 'node-fetch'
 import axios from "axios"
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-//let frep = { contextInfo: { externalAdReply: {title: wm, body: author, sourceUrl: redesMenu.getRandom(), thumbnail: await(await fetch(gataMenu.getRandom())).buffer() }}}
+let frep = { contextInfo: { externalAdReply: {title: wm, body: author, sourceUrl: redesMenu.getRandom(), thumbnail: await(await fetch(gataMenu.getRandom())).buffer() }}}
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 try { 
 if (command == 'consejo' || command == 'advice') { 
 let img = 'https://img.freepik.com/vector-premium/caracter-gato-ilustracion-hoja-trebol_75474-1263.jpg'
@@ -16,10 +17,7 @@ let texto = `
 *ღ _${result.text}_*
 
 ・☘️・》・》・》`
-conn.sendButton(m.chat, texto.trim(), wm, img, [
-[lenguajeGB.smsConj(), `${usedPrefix + command}`],
-[lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], null, fkontak)}
-//conn.sendFile(m.chat, img, 'error.png', texto.trim(), fkontak)}   
+conn.sendFile(m.chat, img, 'error.png', texto.trim(), fkontak)}   
 //await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeGB.smsConj(), `${usedPrefix + command}`], [lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], m, frep)}   
   
 if (command == 'frase2' || command == 'phrase2') { 
@@ -34,17 +32,14 @@ let texto = `
 *ღ ${frase2.text}*
 
 ・☘️・》・》・》`
-conn.sendButton(m.chat, texto.trim(), wm, img, [
-[lenguajeGB.smsFras(), `${usedPrefix + command}`],
-[lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], null, fkontak)} 
-//conn.sendFile(m.chat, img, 'error.png', texto.trim(), m, fkontak)} 
+conn.sendFile(m.chat, img, 'error.png', texto.trim(), m, fkontak)} 
 //await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeGB.smsFras(), `${usedPrefix + command}`], [lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], m, frep)} 
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
-console.log(e)}}
+console.log(e)}  
+}
 handler.command = ['consejo', 'advice', 'frase2', 'phrase2']
-handler.register = true
 export default handler
 
 global.motivation = [
