@@ -9,7 +9,7 @@ import fetch from 'node-fetch'
 import fs from 'fs/promises'
 import { watchFile, unwatchFile } from "fs"
 import { fileURLToPath } from "url"
-
+ 
 function connect(conn, PORT) {
   const app = global.app = express()
   //console.log(app)
@@ -31,7 +31,7 @@ function connect(conn, PORT) {
   });
 
   app.get('*', async (req, res) => {
-    res.json("GATABOT-MD en ejecución");
+    res.json("The-MikuBot-MDV5 en ejecución");
   });
 
   server.listen(PORT, async () => {
@@ -106,3 +106,4 @@ unwatchFile(file);
 console.log(chalk.redBright("Update 'server.js'"));
 import(`${file}?update=${Date.now()}`);
 })
+
