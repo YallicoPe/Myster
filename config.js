@@ -2,7 +2,7 @@ import { watchFile, unwatchFile } from "fs"
 import chalk from "chalk"
 import { fileURLToPath } from "url"
 import fs from "fs"
-import cheerio from "cheerio"
+//import cheerio from "cheerio"
 import fetch from "node-fetch"
 import axios from "axios"
 import moment from "moment-timezone"
@@ -82,7 +82,7 @@ global.APIKeys = {
 'https://api-xcoders.site': 'Frieren'
 }
 // ❰❰ bibliotecas : libraries ❱❱
-global.cheerio = cheerio
+//global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
 global.axios = axios
@@ -130,7 +130,7 @@ global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️"
-global.igfg = "𝑇ℎ𝑒-𝑀𝑖𝑘𝑢𝐵𝑜𝑡-𝑀𝐷𝑉5"
+global.igfg = "𝗠𝘆𝘀𝘁𝗲𝗿 𝗩𝗲𝗻𝘁𝗮𝘀 𝗕𝗼𝘁 🛍️"
 global.nomorown = "51968200754"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
