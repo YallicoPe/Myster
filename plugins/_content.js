@@ -9,7 +9,7 @@ handler.all = async function (m) {
 global.key = ''
 
 // Cuentas
-const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/official_accounts.json')  
+const response = await fetch('https://raw.githubusercontent.com/YallicoPe/Myster/master/official_accounts.json')  
 const data = await response.json()
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
@@ -22,7 +22,7 @@ global.tk = accounts.tiktok
 global.ths = accounts.threads
 global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.bot = 'wa.me/51926933818'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
@@ -54,9 +54,9 @@ global.redesMenu = [canal1, canal2, canal3, canal4, soporteGB, grupo1, grupo2, g
 global.accountsgb = [canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
 
 var canalesInfo = [
-{ link: canal1, id: "120363160031023229@newsletter", name: "INFINITY-WA 💫" },
-{ link: canal2, id: "120363169294281316@newsletter", name: "GB - UPDATE ✨" },
-{ link: canal3, id: "120363203805910750@newsletter", name: "Tips sobre GataBot 🤩" } 
+{ link: canal1, id: "120363302593776856@newsletter", name: "INFINITY-WA 💫" },
+{ link: canal2, id: "120363302593776856@newsletter", name: "GB - UPDATE ✨" },
+{ link: canal3, id: "120363302593776856@newsletter", name: "Tips sobre GataBot 🤩" } 
 ]
 var indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
 var channelRD = canalesInfo[indiceAleatorio]
